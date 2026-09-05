@@ -677,6 +677,11 @@ a{ color:inherit; }
   border-radius:16px; overflow:hidden;
   box-shadow:0 24px 70px rgba(0,0,0,.6);
 }
+/* `.chat{ display:flex }` above ties with the browser's own [hidden]
+   rule on specificity, and being an author rule it wins the cascade —
+   so the panel was showing on load despite the `hidden` attribute.
+   Force it closed until JS removes `hidden` on click. */
+.chat[hidden]{ display:none; }
 
 .chat__head{
   display:flex; align-items:center; justify-content:space-between;
