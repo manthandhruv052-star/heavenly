@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heavenly Captured — Wedding Photography, Bangalore</title>
+<meta name="description" content="Heavenly Captured is a Bangalore wedding photography studio. Cinematic, candid coverage of South Indian weddings, engagements and portraits.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <div class="loader__mark">
+      <span class="loader__word">Heavenly</span>
+      <span class="loader__word loader__word--alt">Captured</span>
+    </div>
+    <div class="loader__bar"><i id="loaderFill"></i></div>
+    <div class="loader__pct"><span id="loaderPct">0</span><small>%</small></div>
+  </div>
+</div>
+
+<!-- ============ FILM GRAIN + VIGNETTE OVERLAY ============ -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ NAV — brand + one action. Nothing else. ============ -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Heavenly Captured, home">
+    <span class="nav__brandMark">HC</span>
+    <span class="nav__brandName">Heavenly Captured</span>
+  </a>
+
+  <a href="#enquire" class="nav__cta">Check your date</a>
+</header>
+
+<!-- ============ SCROLL RAIL — the whole navigation ============ -->
+<nav class="rail" id="rail" aria-label="Jump to section">
+  <a href="#work"     data-label="Work"><i></i></a>
+  <a href="#services" data-label="Coverage"><i></i></a>
+  <a href="#voices"   data-label="Couples"><i></i></a>
+  <a href="#enquire"  data-label="Enquire"><i></i></a>
+  <span class="rail__fill" id="railFill" aria-hidden="true"></span>
+</nav>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <!-- The shutter: two blades that open on a horizontal slit. -->
+  <div class="hero__shutter" aria-hidden="true">
+    <i class="hero__blade hero__blade--t"></i>
+    <i class="hero__blade hero__blade--b"></i>
+  </div>
+
+  <div class="hero__stage" aria-hidden="true">
+    <div class="hero__dolly" id="heroDolly">
+      <!-- Frames cross-dissolve like a film cut. Swap these for real portfolio images. -->
+      <figure class="hero__frame is-active" style="background-image:url('https://images.unsplash.com/photo-1591604466107-ec97de577aff?q=80&w=2400&auto=format&fit=crop')"></figure>
+      <figure class="hero__frame" style="background-image:url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=2400&auto=format&fit=crop')"></figure>
+      <figure class="hero__frame" style="background-image:url('https://images.unsplash.com/photo-1600628421055-4d30de868b8f?q=80&w=2400&auto=format&fit=crop')"></figure>
+      <figure class="hero__frame" style="background-image:url('https://images.unsplash.com/photo-1604608672516-f1b9b1a0a3f9?q=80&w=2400&auto=format&fit=crop')"></figure>
+    </div>
+  </div>
+
+  <div class="hero__scrim" aria-hidden="true"></div>
+
+  <div class="hero__content" id="heroContent">
+    <p class="hero__kicker"><span>Bangalore</span><i></i><span>since 2016</span></p>
+
+    <h1 class="hero__title">
+      <span class="line"><span class="w">The</span> <span class="w">day</span></span>
+      <span class="line"><span class="w">goes</span> <span class="w"><em>fast.</em></span></span>
+      <span class="line line--out"><span class="w">We</span> <span class="w">don't.</span></span>
+    </h1>
+
+    <p class="hero__sub">Wedding photography and films for families who want the noise,
+      the crying, the grandmother laughing at the back — not just the poses.</p>
+  </div>
+
+  <div class="hero__meta" aria-hidden="true">
+    <div class="hero__counter"><span id="frameNum">01</span><i>/</i><span>04</span></div>
+    <div class="hero__scroll"><span>Scroll</span><i></i></div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<section class="marquee" aria-hidden="true">
+  <div class="marquee__track" id="marqueeTrack">
+    <span>Muhurtham</span><i>✦</i><span>Reception</span><i>✦</i><span>Engagement</span><i>✦</i>
+    <span>Mehendi</span><i>✦</i><span>Haldi</span><i>✦</i><span>Portraits</span><i>✦</i>
+    <span>Destination</span><i>✦</i>
+  </div>
+</section>
+
+<!-- ============ STORY ============ -->
+<section class="story" id="story">
+  <div class="story__grid">
+    <div class="story__imgWrap">
+      <img class="story__img" src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop" alt="A bride and groom during a temple ceremony">
+      <div class="story__imgTint" aria-hidden="true"></div>
+    </div>
+
+    <div class="story__text">
+      <h2 class="story__h">We shoot weddings the way you'll want to remember them</h2>
+      <p>A wedding is nine hours of chaos wearing silk. Somewhere inside it your father is
+        adjusting his watch for the fourth time, your cousins are arguing about the seating,
+        and your grandmother has quietly decided she is in charge of the flowers.</p>
+      <p>That's the film. The portraits matter — we'll make you look extraordinary in them —
+        but the reason you'll open the album in twenty years is the half-second before
+        someone realised they were being photographed.</p>
+
+      <dl class="story__stats">
+        <div><dt>Weddings covered</dt><dd data-count="340">0</dd></div>
+        <div><dt>Cities travelled</dt><dd data-count="26">0</dd></div>
+        <div><dt>Frames per wedding</dt><dd data-count="4200">0</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FILMSTRIP (horizontal scrub) ============ -->
+<section class="strip" id="work">
+  <div class="strip__pin" id="stripPin">
+    <div class="strip__head">
+      <h2>Selected work</h2>
+      <p>Drag, scroll, or use the arrow keys.</p>
+    </div>
+
+    <div class="strip__track" id="stripTrack">
+      <article class="shot">
+        <div class="shot__img" style="background-image:url('https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=1400&auto=format&fit=crop')"></div>
+        <div class="shot__cap"><h3>Aishwarya &amp; Rohan</h3><p>Bangalore Palace Grounds</p></div>
+      </article>
+      <article class="shot shot--tall">
+        <div class="shot__img" style="background-image:url('https://images.unsplash.com/photo-1595407753234-0882f1e77954?q=80&w=1400&auto=format&fit=crop')"></div>
+        <div class="shot__cap"><h3>Meera &amp; Karthik</h3><p>Mysore, three days</p></div>
+      </article>
+      <article class="shot">
+        <div class="shot__img" style="background-image:url('https://images.unsplash.com/photo-1620145648299-f926ac0a9268?q=80&w=1400&auto=format&fit=crop')"></div>
+        <div class="shot__cap"><h3>Divya &amp; Anand</h3><p>Muhurtham at dawn</p></div>
+      </article>
+      <article class="shot shot--wide">
+        <div class="shot__img" style="background-image:url('https://images.unsplash.com/photo-1600628421055-4d30de868b8f?q=80&w=1800&auto=format&fit=crop')"></div>
+        <div class="shot__cap"><h3>Nandini &amp; Vikram</h3><p>Coorg, monsoon</p></div>
+      </article>
+      <article class="shot">
+        <div class="shot__img" style="background-image:url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1400&auto=format&fit=crop')"></div>
+        <div class="shot__cap"><h3>Priya &amp; Sameer</h3><p>Reception, Whitefield</p></div>
+      </article>
+      <article class="shot shot--tall">
+        <div class="shot__img" style="background-image:url('https://images.unsplash.com/photo-1591604466107-ec97de577aff?q=80&w=1400&auto=format&fit=crop')"></div>
+        <div class="shot__cap"><h3>Lakshmi &amp; Arjun</h3><p>Temple ceremony, Madurai</p></div>
+      </article>
+      <article class="shot">
+        <div class="shot__img" style="background-image:url('https://images.unsplash.com/photo-1604608672516-f1b9b1a0a3f9?q=80&w=1400&auto=format&fit=crop')"></div>
+        <div class="shot__cap"><h3>Sneha &amp; Adithya</h3><p>Mehendi, at home</p></div>
+      </article>
+    </div>
+
+    <div class="strip__rail" aria-hidden="true"><i id="stripProgress"></i></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT SHEET — the set piece ============ -->
+<section class="sheet" id="sheet">
+  <div class="sheet__pin">
+    <div class="sheet__grid" id="sheetGrid" aria-hidden="true">
+      <!-- 12 frames injected by JS -->
+    </div>
+    <div class="sheet__copy" id="sheetCopy">
+      <h2>Four thousand frames.<br>You'll love about forty.</h2>
+      <p>So we shoot for the forty. Every gallery is culled by the person who shot it —
+        never an intern, never an algorithm — then graded by hand, frame by frame.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="svc" id="services">
+  <h2 class="svc__h">What coverage looks like</h2>
+
+  <div class="svc__list">
+    <article class="svc__row" tabindex="0">
+      <div class="svc__num">Wedding</div>
+      <div class="svc__body">
+        <h3>Full wedding coverage</h3>
+        <p>Two photographers and a cinematographer across every function. Candid documentary
+          coverage plus a directed portrait session with the couple.</p>
+      </div>
+      <div class="svc__meta">1–4 days<i></i>from ₹1,20,000</div>
+      <div class="svc__peek" style="background-image:url('https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=800&auto=format&fit=crop')" aria-hidden="true"></div>
+    </article>
+
+    <article class="svc__row" tabindex="0">
+      <div class="svc__num">Film</div>
+      <div class="svc__body">
+        <h3>Wedding film</h3>
+        <p>A three-minute teaser within a fortnight, then a full film cut to the sound of the
+          day itself — the vows, the band, the room.</p>
+      </div>
+      <div class="svc__meta">Teaser + feature<i></i>from ₹85,000</div>
+      <div class="svc__peek" style="background-image:url('https://images.unsplash.com/photo-1595407753234-0882f1e77954?q=80&w=800&auto=format&fit=crop')" aria-hidden="true"></div>
+    </article>
+
+    <article class="svc__row" tabindex="0">
+      <div class="svc__num">Pre</div>
+      <div class="svc__body">
+        <h3>Engagement &amp; pre-wedding</h3>
+        <p>Half a day, one or two locations. Nandi Hills at sunrise, a Bangalore street at
+          dusk, or somewhere that already means something to you.</p>
+      </div>
+      <div class="svc__meta">4–6 hours<i></i>from ₹35,000</div>
+      <div class="svc__peek" style="background-image:url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop')" aria-hidden="true"></div>
+    </article>
+
+    <article class="svc__row" tabindex="0">
+      <div class="svc__num">Studio</div>
+      <div class="svc__body">
+        <h3>Portraits, maternity &amp; newborn</h3>
+        <p>In our Bangalore studio or at your home. Unhurried, quiet sessions — especially
+          the newborn ones, which run on the baby's schedule, not ours.</p>
+      </div>
+      <div class="svc__meta">2–3 hours<i></i>from ₹18,000</div>
+      <div class="svc__peek" style="background-image:url('https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop')" aria-hidden="true"></div>
+    </article>
+  </div>
+
+  <p class="svc__note">Every wedding is quoted individually — cities, days and deliverables all
+    move the number. Send us your dates and we'll come back with something specific.</p>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="voices" id="voices">
+  <div class="voices__head">
+    <h2>What couples said afterwards</h2>
+    <div class="voices__rating">
+      <span class="voices__stars" aria-hidden="true">★★★★★</span>
+      <span class="voices__score"><b>4.9</b> on Google · 87 reviews</span>
+    </div>
+  </div>
+
+  <!-- Two rows drifting in opposite directions. No tabs, no filtering —
+       one continuous river of what people said. -->
+  <div class="river" id="river">
+    <div class="river__row" data-dir="1">
+      <div class="river__track">
+        <figure class="voice">
+          <blockquote>They caught my father wiping his eyes during the muhurtham. He swears it
+            never happened. I have it in 4200 pixels and I win every argument now.</blockquote>
+          <figcaption><b>Aishwarya R.</b><span>Wedding · Palace Grounds</span></figcaption>
+        </figure>
+        <figure class="voice">
+          <blockquote>Three days, four functions, two cities, and at no point did anyone from
+            the team make it about themselves. They were invisible until we needed them.</blockquote>
+          <figcaption><b>Karthik M.</b><span>Wedding · Mysore</span></figcaption>
+        </figure>
+        <figure class="voice">
+          <blockquote>We've watched the teaser maybe forty times. My husband cried on the
+            eleventh. The full film arrived before they said it would, which never happens.</blockquote>
+          <figcaption><b>Meera S.</b><span>Wedding film</span></figcaption>
+        </figure>
+        <figure class="voice">
+          <blockquote>Our newborn shoot took four hours because she refused to sleep. Nobody
+            rushed, nobody sighed. They just waited her out and got the frame.</blockquote>
+          <figcaption><b>Divya &amp; Anand</b><span>Newborn portraits</span></figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="river__row" data-dir="-1">
+      <div class="river__track">
+        <figure class="voice">
+          <blockquote>I'd seen a hundred Bangalore photographers' portfolios and they all looked
+            the same. These looked like a memory instead of an advertisement.</blockquote>
+          <figcaption><b>Nandini P.</b><span>Wedding · Coorg</span></figcaption>
+        </figure>
+        <figure class="voice">
+          <blockquote>The film has my grandmother's voice in it. She passed last year. I don't
+            really have words for what that's worth.</blockquote>
+          <figcaption><b>Sameer K.</b><span>Wedding film</span></figcaption>
+        </figure>
+        <figure class="voice">
+          <blockquote>Booked a maternity session on a whim at 34 weeks. It's now the largest
+            print in our house and the first thing anyone comments on.</blockquote>
+          <figcaption><b>Lakshmi V.</b><span>Maternity</span></figcaption>
+        </figure>
+        <figure class="voice">
+          <blockquote>Monsoon wrecked the outdoor plan an hour before the ceremony. They'd
+            already scouted an indoor backup. That's the whole review, really.</blockquote>
+          <figcaption><b>Vikram J.</b><span>Wedding · Coorg</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENQUIRE ============ -->
+<section class="enq" id="enquire">
+  <div class="enq__inner">
+    <div class="enq__left">
+      <h2>Tell us the date</h2>
+      <p>We take a limited number of weddings each season so every couple gets the same
+        attention. Peak season — November through February — usually books eight to twelve
+        months out.</p>
+
+      <address class="enq__contact">
+        <a href="tel:+919999999999">+91 99999 99999</a>
+        <a href="mailto:hello@heavenlycaptured.in">hello@heavenlycaptured.in</a>
+        <span>Bangalore, Karnataka</span>
+      </address>
+    </div>
+
+    <form class="enq__form" id="enqForm" novalidate>
+      <div class="field">
+        <input type="text" id="f-name" name="name" placeholder=" " required autocomplete="name">
+        <label for="f-name">Your name</label>
+      </div>
+      <div class="field">
+        <input type="email" id="f-mail" name="email" placeholder=" " required autocomplete="email">
+        <label for="f-mail">Email</label>
+      </div>
+      <div class="field">
+        <input type="text" id="f-date" name="date" placeholder=" " autocomplete="off">
+        <label for="f-date">Wedding date (or roughly when)</label>
+      </div>
+      <div class="field">
+        <textarea id="f-msg" name="message" rows="3" placeholder=" "></textarea>
+        <label for="f-msg">Where, and what are you planning?</label>
+      </div>
+      <button type="submit" class="enq__submit"><span>Send enquiry</span></button>
+      <p class="enq__status" id="enqStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="foot__mark">Heavenly Captured</div>
+  <div class="foot__meta">
+    <span>Photo Studio · Bangalore</span>
+    <span>© <span id="year">2026</span></span>
+  </div>
+</footer>
+
+</main>
+
+<!-- ============ CHATBOT ============ -->
+<button class="chatFab" id="chatFab" aria-label="Ask a question" aria-expanded="false" aria-controls="chatPanel">
+  <svg class="chatFab__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M4 5.5h16v11H9l-5 4v-4H4v-11Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+    <circle cx="9.5" cy="11" r="1" fill="currentColor"/><circle cx="14.5" cy="11" r="1" fill="currentColor"/>
+  </svg>
+  <svg class="chatFab__close" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+  </svg>
+</button>
+
+<section class="chat" id="chatPanel" hidden aria-label="Chat with the studio">
+  <header class="chat__head">
+    <div class="chat__who"><b>Aria</b><span>Studio assistant</span></div>
+    <span class="chat__dot" aria-hidden="true"></span>
+  </header>
+
+  <div class="chat__log" id="chatLog" role="log" aria-live="polite"></div>
+
+  <div class="chat__chips" id="chatChips">
+    <button>Are you free in December?</button>
+    <button>What's included in coverage?</button>
+    <button>How long until we get photos?</button>
+  </div>
+
+  <form class="chat__form" id="chatForm">
+    <input id="chatInput" type="text" placeholder="Ask about dates, coverage, albums…" autocomplete="off" aria-label="Your message">
+    <button type="submit" aria-label="Send">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </form>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="/main.js"></script>
+</body>
+</html>
